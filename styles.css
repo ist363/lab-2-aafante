@@ -1,0 +1,153 @@
+
+html{
+    margin: auto;
+    height: 100%;
+}
+body{
+    margin: auto;
+    height: 100%;
+}
+.body2{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.body3{
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flex-container1{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+.flex-container2{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}.flex-container3{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+}
+.small-blue{
+    height: 200px;
+    margin: 10px;
+    background-color: lightblue;
+    width: 50%;
+}
+
+.small-pink{
+    height: 200px;
+    margin: 10px;
+    background-color: lightcoral;
+    width: 25%;
+}
+.small-pink:nth-child(2){
+    width: 50%;
+}
+.small-purple{
+    height: 200px;
+    margin: 10px;
+    background-color: #DA80DA;
+    width: 50%;
+}
+.small-purple:nth-child(2){
+    width: 25%;
+}
+
+.green-container{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.medium-green{
+    height: 200px;
+    margin: 10px;
+    background-color: lightgreen;
+    width: 33%;
+}
+
+.yellow-container{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.ugly-yellow{
+    height: 200px;
+    margin: 10px;
+    background-color: #E9E945;
+    width: 25%;
+}
+
+.ugly-yellow:nth-child(3){
+    margin-left: auto;
+}
+
+.flex-container{
+display: -webkit-flex;
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+height: 100%;
+
+}
+
+.header{
+    height: 100px;  
+    background-color: crimson;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer{
+    height: 200px;
+    background-color:lightslategray;
+    width: 100%;
+    margin-top: 10px;
+}
+.left-main{
+    margin: 10px;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: gray;
+    width:75%;
+    height: 100%;
+}
+.side-bar{
+   height: 100%;
+    margin: 10px;
+    width: 25%;
+    background-color: lightgray;
+    border-style: solid;
+    border-color: gray;
+}
+.blue-container{
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    max-width: 900px;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.blue-box{
+    margin: 10px;
+    background-color: lightblue;
+    min-width: 206px;
+    height: 200px;
+    align-items: center;
+}
